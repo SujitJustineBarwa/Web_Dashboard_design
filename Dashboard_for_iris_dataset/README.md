@@ -1,5 +1,5 @@
-**Iris dataset web dashboard**
+**<u>Iris dataset web dashboard</u>**
 
-In this project, we have presented the a web based dashboard using dash and Iris dataset library.
+In this project, we have presented a web-based dashboard using Dash and the Iris dataset library.
 
 ![alt text](Dashboard_image.PNG)
