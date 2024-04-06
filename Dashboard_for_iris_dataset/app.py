@@ -22,6 +22,7 @@ external_stylesheets = [
 # Setup the Dash app
 app = Dash(__name__,external_stylesheets=external_stylesheets)
 app.title = "Iris Flower Data Exploration"
+server = app.server
 
 app.layout = html.Div(
     children=[
