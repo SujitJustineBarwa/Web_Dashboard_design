@@ -53,4 +53,4 @@ To run this project locally, follow these steps:
    python manage.py migrate
    python manage.py runserver
 
-    Visit http://127.0.0.1:8000/ in your browser to view the website locally.
+   Visit http://127.0.0.1:8000/ in your browser to view the website locally.
