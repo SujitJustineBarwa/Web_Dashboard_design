@@ -44,12 +44,12 @@ To run this project locally, follow these steps:
 
 2. **Install required libraries**
 
-   '''bash
+   ```bash
    pip install -r requirements.txt
 
 3. **Start the server**
 
-   '''bash
+   ```bash
    python manage.py migrate
    python manage.py runserver
 
