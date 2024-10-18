@@ -7,19 +7,6 @@ Home - BuMonk Studio
 {% block content %}
 
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'navbar.css'%}">
-
-<header class="navbar-header">
-    <h1><strong class="logo-text">  ★ BuMonk Studio</strong></h1>
-    <nav>
-        <ul class="navbar">
-            <li><a href="{% url 'Video Collection' %}">Video Collection</a></li>
-            <li><a href="{% url 'Photograhy Collection' %}">Photograhy Collection</a></li>
-            <li><a href="{% url 'Book an Appointment' %}">Book an Appointment</a></li>
-        </ul>
-    </nav>
-</header>
-
 <link rel="stylesheet" type="text/css" href="{% static 'wedding_video.css'%}">
 <video class="bg-video" autoplay muted loop>
     <source src="{% static 'The Wedding Filmer.mp4' %}" type="video/mp4">

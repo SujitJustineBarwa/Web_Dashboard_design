@@ -11,6 +11,21 @@
 </head>
 <body>
     
+    <link rel="stylesheet" type="text/css" href="{% static 'navbar.css'%}">
+    <header class="navbar-header">
+        <h1><strong class="logo-text">  ★ BuMonk Studio</strong></h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'Video Collection' %}">Video Collection</a></li>
+                <li><a href="{% url 'Photograhy Collection' %}">Photograhy Collection</a></li>
+                <li><a href="{% url 'book_appointment' %}">Book an Appointment</a></li>
+                <li><a href="{% url 'view_appointments' %}">View Appointment</a></li>
+                <li><a href="{% url 'signup' %}">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <!-- Main content area -->
     <main>
         {% block content %}
