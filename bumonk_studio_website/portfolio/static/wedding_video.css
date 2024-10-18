@@ -1,0 +1,21 @@
+/* Flex container to center the video */
+.video-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the video */
+    align-items: center; /* Vertically center the video */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto; /* Full viewport width */
+    height: auto; /* Full viewport height */
+    z-index: 10; /* Ensure the video stays in the background */
+    overflow: hidden; /* Hide any overflow if the video exceeds container */
+  }
+  
+  /* Video styles */
+  .bg-video {
+    width: auto; /* Set video to scale within the container */
+    height: auto; /* Ensures it fits the container’s height */
+    object-fit: cover; /* Maintain aspect ratio without cropping */
+  }
+  
