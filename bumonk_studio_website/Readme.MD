@@ -44,13 +44,45 @@ To run this project locally, follow these steps:
 
 2. **Install required libraries**
 
-   '''bash
+   ```bash
    pip install -r requirements.txt
 
 3. **Start the server**
 
-   '''bash
+   ```bash
    python manage.py migrate
    python manage.py runserver
 
-    Visit http://127.0.0.1:8000/ in your browser to view the website locally.
+4. **Visit http://127.0.0.1:8000/ in your browser to view the website locally.**
+
+
+##  Usage
+
+Once the project is up and running, you can explore the following pages:
+
+    Homepage: A welcoming video background with services listed below.
+    Video Collection: A showcase of wedding and event videos.
+    Photography Collection: Browse through photography portfolios.
+    Book an Appointment: Use the booking form to schedule sessions.
+
+Feel free to customize the content, styles, and additional features to suit your needs.
+Contributing
+
+##  Contributions are welcome! Please follow these steps to contribute:
+
+    Fork the project.
+    Create your feature branch: git checkout -b feature/amazing-feature
+    Commit your changes: git commit -m 'Add some amazing feature'
+    Push to the branch: git push origin feature/amazing-feature
+    Open a pull request.
+
+##  License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+##  Contact
+
+If you have any questions or want to reach out for collaborations, feel free to contact us:
+
+    Email: contact@bumonkstudio.com
+    Website: BuMonk Studio
