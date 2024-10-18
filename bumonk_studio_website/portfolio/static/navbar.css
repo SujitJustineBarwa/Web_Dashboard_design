@@ -1,0 +1,44 @@
+/* Styling for the header */
+.navbar-header {
+    display: flex;
+    justify-content: space-between; /* Places items on the left and right */
+    align-items: center; /* Centers items vertically */
+    background-color: #000; /* Dark background for the header */
+    margin: auto;
+    padding: 20px;
+    margin: 0;               /* Ensure no margins */
+    border: none;            /* Ensure no border */
+}
+
+/* Styling for the logo text (on the left side) */
+.logo-text {
+    font-size: 24px;
+    color: white; /* White text for the logo */
+    font-weight: bold;
+}
+
+/* Styling for the navigation */
+.navbar {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox for horizontal layout */
+}
+
+.navbar li {
+    margin-left: 20px; /* Space between menu items */
+}
+
+/* Styling for the links */
+.navbar li a {
+    text-decoration: none;
+    color: white; /* Link color */
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #555; /* Hover effect for links */
+    border-radius: 5px;
+}

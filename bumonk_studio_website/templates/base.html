@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Photography & Videography {% endblock %}</title>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <!-- Add any CSS or JS files you need -->
+</head>
+<body>
+    
+    <!-- Main content area -->
+    <main>
+        {% block content %}
+        <!-- Page-specific content will go here -->
+        {% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Left section: Copyright -->
+        <div class="left-section">
+            <p ><strong style="font-size: 18px;">★ BuMonk Studio</strong><br>&copy; 2024.All rights reserved.</p>
+        </div>
+
+        <!-- Right section: Navigation and Social Media -->
+        <div class="right-section">
+            <ul>
+                <li><a href="#"><strong>Contact Us</strong></a></li>
+                <li><a href="#"><strong>Social Media</strong></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

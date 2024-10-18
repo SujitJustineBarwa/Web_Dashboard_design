@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home - BuMonk Studio
+{% endblock %}
+
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'navbar.css'%}">
+
+<header class="navbar-header">
+    <h1><strong class="logo-text">  ★ BuMonk Studio</strong></h1>
+    <nav>
+        <ul class="navbar">
+            <li><a href="{% url 'Video Collection' %}">Video Collection</a></li>
+            <li><a href="{% url 'Photograhy Collection' %}">Photograhy Collection</a></li>
+            <li><a href="{% url 'Book an Appointment' %}">Book an Appointment</a></li>
+        </ul>
+    </nav>
+</header>
+
+<link rel="stylesheet" type="text/css" href="{% static 'wedding_video.css'%}">
+<video class="bg-video" autoplay muted loop>
+    <source src="{% static 'The Wedding Filmer.mp4' %}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<link rel="stylesheet" type="text/css" href="{% static 'homepage_text.css'%}">
+<section class="animated-text">
+    <h2 class="fade-in">Welcome to BuMonk Studio</h2>
+    <p class="fade-in delay-1">At BuMonk Studio, we believe every picture tells a story. Our photography studio specializes in transforming fleeting moments into timeless treasures, ensuring that every image reflects the beauty, emotion, and essence of our subjects. Whether you are looking to document a special occasion, create a family portrait, or capture professional headshots, our team is dedicated to providing an exceptional photographic experience.</p>
+    
+    <h2 class="fade-in delay-2">Our Services</h2>
+    <ul class="services-list fade-in delay-3">
+        <li><strong>Portrait Photography:</strong> Celebrate your individuality with stunning portrait sessions.</li>
+        <li><strong>Event Photography:</strong> From weddings to corporate events, we capture every moment beautifully.</li>
+        <li><strong>Product Photography:</strong> Showcase your products in the best light for your brand.</li>
+        <li><strong>Commercial Photography:</strong> Elevate your business with high-quality images.</li>
+        <li><strong>Special Projects:</strong> Collaborate on custom projects that push the boundaries of creativity.</li>
+    </ul>
+    
+    <h2 class="fade-in delay-4">Why Choose Us?</h2>
+    <ul class="why-choose-us fade-in delay-5">
+        <li><strong>Experienced Photographers:</strong> Our team consists of passionate and skilled photographers.</li>
+        <li><strong>State-of-the-Art Equipment:</strong> We utilize the latest technology to ensure high-quality results.</li>
+        <li><strong>Personalized Approach:</strong> We tailor each shoot to fit your vision and preferences.</li>
+        <li><strong>Comfortable Environment:</strong> Our studio is designed to be welcoming and comfortable.</li>
+        <li><strong>Timely Delivery:</strong> We provide quick turnaround times without compromising quality.</li>
+    </ul>
+
+    <h2 class="fade-in delay-6">Our Studio</h2>
+    <p class="fade-in delay-7">Located in [Location], our spacious studio is equipped with versatile backdrops, professional lighting, and a cozy lounge area...</p>
+
+    <h2 class="fade-in delay-8">Client Testimonials</h2>
+    <p class="fade-in delay-9 client-testimonial"><em>"Working with BuMonk Studio was an incredible experience!...</em></p>
+    
+    <h2 class="fade-in delay-10">Book Your Session Today!</h2>
+    <p class="fade-in delay-11">Ready to create memories that last a lifetime? Contact us to book your session...</p>
+</section>
+
+{% endblock %}

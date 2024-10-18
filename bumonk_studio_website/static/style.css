@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Ensure the body takes at least the full viewport height */
+}
+
+.main-content {
+    flex: 1;  /* This makes the main content grow to take up available space */
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+/* Left section for copyright */
+.footer .left-section {
+    flex: 1 1 30%;
+    text-align: left;
+}
+
+/* Right section for links */
+.footer .right-section {
+    flex: 2 1 60%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
